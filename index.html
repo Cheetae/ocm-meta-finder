@@ -97,6 +97,52 @@
             </a>
           </div>
         </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link heading">
+            Siblings
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item heading" onclick="main.loadMonkies('twins');">
+              Twins (56)
+            </a>
+            <a class="navbar-item heading" onclick="main.loadMonkies('triplets');">
+              Triplets (6)
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link heading">
+            Poker Hands
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item heading" onclick="main.loadMonkies('fullhouse42');">
+              4-2 Full House (78)
+            </a>
+            <a class="navbar-item heading" onclick="main.loadMonkies('fullhouse33');">
+              3-3 Full House (32)
+            </a>
+            <a class="navbar-item heading" onclick="main.loadMonkies('fullhouse43');">
+              4-3 Full House (3)
+            </a>
+            <a class="navbar-item heading" onclick="main.loadMonkies('fullhouse52');">
+              5-2 Full House (3)
+            </a>
+            <a class="navbar-item heading" onclick="main.loadMonkies('straight5');">
+              5 Straight (115)
+            </a>
+            <a class="navbar-item heading" onclick="main.loadMonkies('straight6');">
+              6 Straight (12)
+            </a>
+            <a class="navbar-item heading" onclick="main.loadMonkies('ofakind5');">
+              5 of a Kind (62)
+            </a>
+            <a class="navbar-item heading" onclick="main.loadMonkies('ofakind6');">
+              6 of a Kind (1)
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -116,7 +162,7 @@
     
     <div id="summary">  
       <section class="hero is-large is-dark" style="padding: 20px;">
-        <h1 class="title">Naked Meta</h1>
+        <h1 class="title">Naked</h1>
         <nav class="level" style>
           <div class="level-item has-text-centered">
             <div onclick="main.loadMonkies('nakedplain');">
@@ -163,7 +209,7 @@
         </nav>
       </section>
       <section class="hero is-large is-info" style="padding: 20px;">
-        <h1 class="title">Tagged Meta</h1>
+        <h1 class="title">Tagged</h1>
         <nav class="level" style>
           <div class="level-item has-text-centered">
             <div onclick="main.loadMonkies('taggedplain');">
@@ -209,8 +255,8 @@
           </div>
         </nav>
       </section>
-      <section class="hero is-large is-primary" style="padding: 20px;">
-        <h1 class="title">Color Meta</h1>
+      <section class="hero is-large is-dark" style="padding: 20px;">
+        <h1 class="title">Color</h1>
         <nav class="level" style>
           <div class="level-item has-text-centered">
             <div onclick="main.loadMonkies('colormatchsolidhat');">
@@ -228,6 +274,76 @@
             <div onclick="main.loadMonkies('reversecolormatch');">
               <p class="heading">Reverse Color Match</p>
               <p class="title">83</p>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="hero is-large is-info" style="padding: 20px;">
+        <h1 class="title">Siblings</h1>
+        <nav class="level" style>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('twins');">
+              <p class="heading">Twins</p>
+              <p class="title">56</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('triplets');">
+              <p class="heading">Triplets</p>
+              <p class="title">6</p>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <section class="hero is-large is-dark" style="padding: 20px;">
+        <h1 class="title">Poker Hands</h1>
+        <nav class="level" style>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('fullhouse42');">
+              <p class="heading">4-2 Full House</p>
+              <p class="title">78</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('fullhouse32');">
+              <p class="heading">3-3 Full House</p>
+              <p class="title">32</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('fullhouse43');">
+              <p class="heading">4-3 Full House</p>
+              <p class="title">3</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('fullhouse52');">
+              <p class="heading">5-2 Full House</p>
+              <p class="title">3</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('straight5');">
+              <p class="heading">5 Straight</p>
+              <p class="title">115</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('straight6');">
+              <p class="heading">6 Straight</p>
+              <p class="title">12</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('ofakind5');">
+              <p class="heading">5 of a Kind</p>
+              <p class="title">62</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div onclick="main.loadMonkies('ofakind6');">
+              <p class="heading">6 of a Kind</p>
+              <p class="title">1</p>
             </div>
           </div>
         </nav>
