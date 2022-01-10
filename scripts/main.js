@@ -76,8 +76,11 @@ var main = {
     var innerHtml = '';
     localData.forEach(id => {
       innerHtml = innerHtml + 
-      `<a href="https://opensea.io/assets/0x960b7a6bcd451c9968473f7bbfd9be826efd549a/${id}" target="_blank" style="height: 220px;">
+      `<a href="https://opensea.io/assets/0x960b7a6bcd451c9968473f7bbfd9be826efd549a/${id}" target="_blank" style="height: 250px;">
         <img src="https://d3q7x2s6555pey.cloudfront.net/png/${id}.png" style="max-width: 220px;">
+        <div style="height: 30px; text-align: center;">
+          <span class="title heading" style="color: white;">OCM #${id}<span>
+        </div>
       </a>`;
     });
     main.updateTitle(data.title[id], data[id].length);
